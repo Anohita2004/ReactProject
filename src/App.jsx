@@ -7,11 +7,14 @@ import Greeting from "./Greeting";
 import ProductInfo from "./components/ProductInfo";
 import Lists from "./Lists";
 import ProductList from "./components/ProductList";
+import { Parent, Child } from "./components/Props";
 
 function App(){
   return (
     <div>
       <Greeting />
+      
+      <Child name="Anohita"/>
       <ProductInfo />
       <Lists />
       <ProductList />
