@@ -8,7 +8,7 @@ function ProductInfo(){
         <div>
             <h1>Product Information</h1>
             <p>This is the product information page!</p>
-            <h2>{product.name}</h2>
+            <h2 className="text">{product.name}</h2>
             <p>Price: ${product.price}</p>
             <p>Description: {product.description}</p>
         </div>

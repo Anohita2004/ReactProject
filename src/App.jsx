@@ -5,12 +5,14 @@ import Footer from "./components/Footer";
 import WelcomeMessage from "./components/WelcomeMessage";
 import Greeting from "./Greeting";
 import ProductInfo from "./components/ProductInfo";
+import Lists from "./Lists";
 
 function App(){
   return (
     <div>
       <Greeting />
       <ProductInfo />
+      <Lists />
       <Header />
       <MainContent />
       <Footer />
