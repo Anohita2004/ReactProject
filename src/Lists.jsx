@@ -3,7 +3,9 @@ function Lists() {
   return(
     <div>Lists
         {list.map((item) => (
-            <p key={item.toString()}>{item}</p>
+            <ol>
+                <li key={item.toString()}>{item}</li>
+            </ol>
         ))}
         
 

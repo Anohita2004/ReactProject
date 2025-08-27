@@ -6,6 +6,7 @@ import WelcomeMessage from "./components/WelcomeMessage";
 import Greeting from "./Greeting";
 import ProductInfo from "./components/ProductInfo";
 import Lists from "./Lists";
+import ProductList from "./components/ProductList";
 
 function App(){
   return (
@@ -13,6 +14,7 @@ function App(){
       <Greeting />
       <ProductInfo />
       <Lists />
+      <ProductList />
       <Header />
       <MainContent />
       <Footer />
