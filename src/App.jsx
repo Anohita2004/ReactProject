@@ -7,14 +7,16 @@ import Greeting from "./Greeting";
 import ProductInfo from "./components/ProductInfo";
 import Lists from "./Lists";
 import ProductList from "./components/ProductList";
-import { Parent, Child } from "./components/Props";
+import Product from "./components/Product";
+import Person from "./components/Person";
 
 function App(){
   return (
     <div>
       <Greeting />
       
-      <Child name="Anohita"/>
+      <Person name="Alice" age={30} />
+      <Product name="Laptop" cost={1000} />
       <ProductInfo />
       <Lists />
       <ProductList />
